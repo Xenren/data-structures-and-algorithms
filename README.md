@@ -1,5 +1,5 @@
 # Introduction
-A personal exercise in learning Data Structures. This repo is a place to document my progress in this journey. I plan to implement rudimentary versions of various data structures as well the abstract data types that can be constructed using each given data structure.
+A personal exercise in learning Data Structures and Algorithms. This repo is a place to publicly document my progress in this journey, as well as strengthen my git skills in a public setting. I plan to implement rudimentary versions of various data structures and the abstract data types that can be constructed using each given data structure in addition to essential algorithms.
 
 # Progress
 - [ ] Array
