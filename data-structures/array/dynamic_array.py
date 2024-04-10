@@ -1,22 +1,22 @@
-from typing import Any
+from typing import Any, List
 
 
 class DynamicArray:
     def __init__(self, items: Any) -> None:
-        self.storage = []  # use built-in list for memory management
-        self.size = 0
-        self.capacity = len(items) * 2 if len(items) else 16
+        self.storage: List = []  # use built-in list for memory management
+        self.size: int = 0
+        self.capacity: int = len(items) * 2 if len(items) else 16
         if items:
             for item in items:
                 self.append(item)
 
-    def __repr__(self):
-        pass
+    def __repr__(self) -> str:
+        return str(self.storage) # temp
 
-    def capacity(self) -> int:
+    def get_capacity(self) -> int:
         return self.capacity
 
-    def size(self) -> int:
+    def get_size(self) -> int:
         return self.size
 
     def is_empty(self) -> bool:
